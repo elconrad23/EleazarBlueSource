@@ -25,7 +25,7 @@ const partners = Array.from({ length: 14 }, (_, index) => ({
       <div class="site-container hero-content">
         <div class="hero-kicker"></div>
         <h2>SUSTAINABILITY INTELLIGENCE, DIGITAL RESILIENCE</h2>
-        <h1>Designing Natural Water Systems with Data-Led Intelligence.</h1>
+        <h1>Designing Water Systems with Data-Led Intelligence</h1>
         <div class="hero-actions">
           <NuxtLink to="/projects" class="btn btn-primary">Project Mission</NuxtLink>
           <NuxtLink to="/contact" class="btn-arrow">Available for new projects <span> > </span></NuxtLink>
