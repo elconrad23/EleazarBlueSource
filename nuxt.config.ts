@@ -27,6 +27,34 @@ export default defineNuxtConfig({
     }
   },
 
+  image: {
+    provider: 'static',
+    presets: {
+      default: {
+        modifiers: {
+          format: 'webp',
+          fit: 'cover'
+        }
+      },
+      small: {
+        modifiers: {
+          width: 300,
+          height: 300,
+          format: 'webp',
+          fit: 'cover'
+        }
+      },
+      medium: {
+        modifiers: {
+          width: 600,
+          height: 400,
+          format: 'webp',
+          fit: 'cover'
+        }
+      }
+    }
+  },
+
   compatibilityDate: '2026-06-30',
 
   nitro: {
