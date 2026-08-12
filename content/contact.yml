@@ -1,0 +1,25 @@
+title: About Us
+description: Learn more about our journey as a team, legacy philosophy, and what drives us to crafting intuitive digital solutions.
+content: |
+  Hi, at Eleazar BlueSource Consultancy**, we are immersed in the world of digital product creation, focusing on sustainability & preservation that are not just functional, but genuinely intuitive and creatively tailored.
+
+  Established in 2020, our consultancy has been dedicated to transforming ideas into digital realities. With a strong foundation in water engineering and software development, we specialize in crafting tools that are both visually compelling and user-friendly.
+  
+  ### Our Legacy Philosophy
+
+  Our Legacy philosophy is rooted in **heritage**. Here we believe great legacy starts with solving the needs, motivations, and pain points of those in society, for generations to come, depending on solutions we build effectively today.
+
+  ### What Drives Us
+
+  What keeps us excited about our work is the constant change and the development of translating complex problems into simple, elegant solutions. There's nothing more rewarding than seeing a nature issue come to life and knowing it's making someone's physical environment more habitable.
+
+  ### Beyond the Screen
+
+  When we're not designing or coding, you might find the team exploring East Africa's latest natural wonders, hiking nearby trails, or occasionally contributing to open-source projects.
+
+  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+images:
+  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: Our coffee workspace
+  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: Our trip to Toro

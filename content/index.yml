@@ -1,0 +1,140 @@
+seo:
+  title: "Eleazar BlueSource Consultancy"
+  description: "Welcome to Eleazar BlueSource Consultancy, an environmental consulting firm in East Africa. we specialize in creating beautiful and functional digital experiences."
+title: "Eleazar BlueSource Consultancy"
+description: "SUSTAINABILITY INTELLIGENCE. DIGITAL RESILIENCE. Bringing ideas to life through code and creativity."
+hero:
+  links:
+    - label: "Project Mission"
+      to: https://github.com/
+      color: "neutral"
+  images:
+    - src: /hero/random-1.avif
+      alt: Random Image 1
+    - src: /hero/random-2.avif
+      alt: Random Image 2
+    - src: /hero/random-3.avif
+      alt: Random Image 3
+    - src: /hero/random-4.avif
+      alt: Random Image 4
+    - src: /hero/random-5.avif
+      alt: Random Image 5
+    - src: /hero/random-6.avif
+      alt: Random Image 6
+    - src: /hero/random-7.avif
+      alt: Random Image 7
+    - src: /hero/random-8.avif
+      alt: Random Image 8
+    - src: /hero/random-9.avif
+      alt: Random Image 9
+portfolio:
+  title: "About Us"
+  description: |
+    As an engineering company with a strong focus on environmental sustainability, we leverage our East Africa University Interactive Design skills to craft user-centered digital experiences.
+    Our approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+experience:
+  title: Core Activities
+  items:
+    - position: "Water resource management at"
+      date: "2026 - Present"
+      company:
+        name: Nile River
+        logo: "i-simple-icons-hive"
+        url: "https://nbi.com"
+        color: "#00DC82"
+    - position: " Data Tools Specialists at"
+      date: "2025 - present"
+      company:
+        name: MUK
+        logo: "i-simple-icons-sonarqubeserver"
+        url: "https://raycast.com"
+        color: "#FF6363"
+    - position: "Solutions Designing at"
+      date: "2026 - Present"
+      company:
+        name: Mpanga River
+        logo: "i-simple-icons-inertia"
+        url: "https://linear.app"
+        color: "#5E6AD2"
+testimonials:
+  - quote: "Mr. Waako's approach to solutions design completely transformed our product. He has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our transportation system friction by 40% and increased delivery rates across all key sea routes."
+    author:
+      name: 'Sarah Chen'
+      description: 'Product Director at NBI'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "Working with Mr. Waako was the best decision we made for our startup. He didn't just deliver designs—he challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. His technical knowledge of front-end development meant the handoff to our internal engineering team was seamless."
+    author:
+      name: 'Dr. Patrick Musinguzi'
+      description: 'Chief Technology Officer at Enviroewatch'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "Mr. Waako stands out in his ability to translate complex sustainability data into intuitive interfaces. His work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. He approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+    author:
+      name: 'Dr. Caliste Johnson'
+      description: 'Executive Director at MOWE'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+blog:
+  title: "Core Focus Areas"
+  description: "Integrated technical, advisory, and capacity-development services"
+  categories:
+    - title: "Water Resources Assessment & Management"
+      description: "We conduct in-depth environmental research to inform sustainable solutions."
+      image: /blog/environmental-research.avif
+    - title: "Environmental Management & Sustainability"
+      description: "We design and develop user-centered digital products that are both functional and visually appealing."
+      image: /blog/design-development.avif
+    - title: "Water-Related Disaster Risk Management (DRM)"
+      description: "We provide expert sustainability consulting to help organizations achieve their environmental goals."
+      image: /blog/sustainability-consulting.avif
+    - title: "Information Services, Data Management and Water Analytics"
+      description: "We offer training and capacity-building programs to empower individuals and organizations in environmental management."
+      image: /blog/capacity-development.avif
+    - title: "Institutional Strengthening and Support Services"
+      description: "We develop and implement water quality monitoring programs to ensure safe and sustainable water resources."
+      image: /blog/water-quality-monitoring.avif
+    - title: "Water Sanitation & Hygiene (WASH)"
+      description: "We provide solutions for improving water supply and sanitation systems, ensuring access to safe water and proper hygiene practices."
+      image: /blog/wash.avif
+
+faq:
+  title: Frequently Asked Questions
+  description: Answers to common questions about the process and services.
+  categories:
+    - title: Services & Process
+      questions:
+        - label: What services do you offer?
+          content: |
+            We specialize in design and development of digital products, including environmental research, wireframing, interactive creating intuitive user interfaces, building responsive self-updating websites and web applications and developing systems.
+        - label: What is your design process like?
+          content: |
+            We are collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. We tailor the process based on project needs, always focusing on sustainability-centered solutions.
+        - label: Do you work with startups?
+          content: |
+            Absolutely! we encourage startups to join in us as we shape and create user-friendly environments from the ground up. We  adapt our processes to fit fast-paced startup environments.
+    - title: Pricing & Timelines
+      questions:
+        - label: How much does a project typically cost?
+          content: |
+            Project costs vary based on scope, complexity, features, and timeline. For comprehensive development projects, our engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, our day rate is $700.
+        - label: What are your payment terms?
+          content: |
+            We generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
+        - label: How long does a typical project take?
+          content: |
+            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. we always provide a detailed timeline estimate after the initial discovery phase.
+        - label: Do you offer retainers or ongoing support?
+          content: |
+            Yes, for clients needing ongoing design support, feature development, or maintenance, we offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
+    - title: About Us
+      questions:
+        - label: What do you enjoy most about your work?
+          content: |
+            We love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something we've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites us.
+        - label: What are your hobbies outside of work?
+          content: |
+            When we're not designing or coding, we enjoy exploring East Africa's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. We're also passionate about photography and occasionally contribute to open-source projects.

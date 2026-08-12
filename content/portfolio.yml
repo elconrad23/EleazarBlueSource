@@ -1,0 +1,48 @@
+title: Talks & Workshops
+description: Explore talks and workshops we've given on environmental sustainability, system development, and building better digital products.
+links:
+  - label: Invite us to speak
+    size: md
+events:
+  - category: Conference
+    title: "Bridging the Gap: Design Systems for Architect-Designer-Developer Collaboration"
+    date: "2024-10-26"
+    location: "VueConf US, Nairobi, Ke"
+    url: "#"
+  - category: Conference
+    title: "Intuitive Interfaces: Applying engineering Principles in environmental Applications"
+    date: "2024-06-15"
+    location: "Water Week, Sweden"
+    url: "#"
+  - category: Conference
+    title: "Accessibility First: Building Inclusive Web Apps"
+    date: "2023-11-08"
+    location: "East Africa Web Performance Meetup, East Africa, MA"
+  - category: Live talk
+    title: "Mastering Component Design in Figma & Vue"
+    date: "2024-08-20"
+    location: "Design & Dev East Africa Meetup, East Africa, MA"
+    url: "#"
+  - category: Live talk
+    title: "From Wireframe to Web: A Practical Front-End Workflow"
+    date: "2024-03-05"
+    location: "Internal Workshop @ PreviousCompany Inc."
+  - category: Live talk
+    title: "The Power of User Research in Product Development"
+    date: "2023-09-12"
+    location: "East Africa University Guest Lecture, East Africa, MA"
+  - category: Podcast
+    title: "Designing for Developers: A UN Perspective"
+    date: "2024-07-18"
+    location: "Syntax.fm (Guest)"
+    url: "#"
+  - category: Podcast
+    title: "The Future of Data Insight Frameworks & Design Tooling"
+    date: "2024-01-30"
+    location: "Design Details Podcast (Guest)"
+    url: "#"
+  - category: Podcast
+    title: "Building a Career in Tools & Development"
+    date: "2023-05-22"
+    location: "TechForward East Africa Podcast"
+    url: "#"
