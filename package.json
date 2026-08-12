@@ -28,7 +28,7 @@
     "@nuxt/eslint": "^1.16.0",
     "eslint": "^10.8.0",
     "typescript": "^6.0.3",
-    "vercel": "^latest",
+    "vercel": "^58.9.0",
     "vue-tsc": "^3.3.9"
   },
   "packageManager": "pnpm@11.18.0"
