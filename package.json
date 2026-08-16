@@ -32,5 +32,12 @@
     "vercel": "^58.9.0",
     "vue-tsc": "^3.3.9"
   },
-  "packageManager": "pnpm@11.18.0"
+  "packageManager": "pnpm@11.18.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "unrs-resolver",
+      "vue-demi"
+    ]
+  }
 }
