@@ -9,7 +9,7 @@
       <nav class="site-nav" aria-label="Primary navigation">
         <NuxtLink to="/projects">Projects</NuxtLink><NuxtLink to="/portfolio">Portfolio</NuxtLink><NuxtLink to="/contact">Contact</NuxtLink>
       </nav>
-      <NuxtLink to="/contact" class="btn btn-outline header-cta">Request Demo</NuxtLink>
+      <NuxtLink to="/contact" class="btn btn-outline header-cta">Request an Audit</NuxtLink>
     </div>
   </header>
 </template>

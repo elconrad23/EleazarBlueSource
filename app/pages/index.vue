@@ -5,9 +5,9 @@ const solutions = [
   ['⌁', 'Environmental data platforms', 'Connected tools that turn field evidence into clear, usable intelligence for teams and communities.'],
   ['△', 'Digital resilience advisory', 'Practical software strategy and institutional systems designed to hold up in complex conditions.']
 ]
-const partners = Array.from({ length: 14 }, (_, index) => ({
+const partners = Array.from({ length: 11 }, (_, index) => ({
   image: `/hero/random-${index + 1}.avif`,
-  label: ['RIVER BASINS', 'PUBLIC UTILITIES', 'RESOURCE AGENCIES', 'AGRICULTURAL INSURANCE', 'ENVIRONMENTAL CONSULTANCY', 'CLIMATE ADAPTATION', 'WATER UTILITIES', 'DATA COMPUTING', 'RESILIENCE', 'DISASTER MANAGEMENT', 'TECH PARTNERS'][index] || `PARTNER PLACEHOLDER ${String(index + 1).padStart(2, '0')}`
+  label: ['WATER POLICY', 'WATER RESOURCE ASSESSMENT', 'RESOURCE AGENCIES', 'WATER CLEANSING', 'CLIMATE ADAPTATION', 'WATER UTILITIES', 'INFORMATION SERVICES', 'DATA ANALYTICS', 'WATER-RELATED DRM', 'WATER MANAGEMENT', 'ENVIRONMENTAL MANAGEMENT'][index % 11]
 }))
 </script>
 
@@ -25,10 +25,10 @@ const partners = Array.from({ length: 14 }, (_, index) => ({
       <div class="site-container hero-content">
         <div class="hero-kicker"></div>
         <h2>SUSTAINABILITY INTELLIGENCE, DIGITAL RESILIENCE</h2>
-        <h1>Designing Water Systems with Data-Led Intelligence</h1>
+        <h1>Smart Digital Water Systems with Data-Led Intelligence</h1>
         <div class="hero-actions">
           <NuxtLink to="/projects" class="btn btn-primary">Project Mission</NuxtLink>
-          <NuxtLink to="/contact" class="btn-arrow">Available for new projects <span> > </span></NuxtLink>
+          <NuxtLink to="/contact" class="btn-arrow">Available for new projects </NuxtLink>
         </div>
       </div>
       <a class="scroll-cue" href="#solutions" aria-label="Scroll to solutions and capabilities"><span class="mouse"></span><b>SCROLL TO EXPLORE</b></a>
@@ -48,7 +48,54 @@ const partners = Array.from({ length: 14 }, (_, index) => ({
         </div>
       </div>
     </section>
-    <section id="solutions" class="solutions"><div class="site-container"><p class="eyebrow">Solutions &amp; capabilities</p><h2 class="section-title">From environmental complexity to operational clarity</h2><div class="solution-grid"><article v-for="solution in solutions" :key="solution[1]" class="solution-card"><span class="solution-icon">{{ solution[0] }}</span><h3>{{ solution[1] }}</h3><p>{{ solution[2] }}</p></article></div></div></section>
-    <section class="platform"><div class="site-container platform-grid"><div><p class="eyebrow">BlueSource platform</p><h2 class="section-title">Our Core Work Areas</h2><p class="section-copy">Build a shared operating picture across data sources, teams and territories—without losing the local context that matters.</p><div class="accordion"><details open><summary>Connected operational intelligence</summary><p>Bring field observations, monitoring feeds and institutional data together in one accountable view.</p></details><details><summary>Decision tools for changing conditions</summary><p>Translate live evidence into priorities, scenarios and actions that people can use.</p></details><details><summary>Built for enduring ownership</summary><p>Systems are designed around your workflows, capacity and long-term stewardship.</p></details></div></div><div class="data-screen" aria-label="Platform dashboard preview"><div class="screen-top"><i /><i /><i /></div><div class="screen-chart" /><div class="screen-stats"><span>FLOW INDEX<br><strong>84.2</strong></span><span>DATA SOURCES<br><strong>24 LIVE</strong></span><span>RISK STATUS<br><strong>STABLE</strong></span></div></div></div></section>
+    <section id="solutions" class="solutions">
+      <div class="site-container">
+        <p class="eyebrow">
+          Solutions &amp; capabilities
+        </p>
+        <h2 class="section-title">
+          From environmental complexity to operational clarity
+        </h2>
+        <div class="solution-grid">
+          <article v-for="solution in solutions" :key="solution[1]" class="solution-card">
+            <span class="solution-icon">{{ solution[0] }}</span>
+            <h3>{{ solution[1] }}</h3>
+            <p>{{ solution[2] }}</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="platform">
+      <div class="site-container platform-grid">
+        <div>
+          <p class="eyebrow">
+            BlueSource platform
+          </p>
+          <h2 class="section-title">
+            Build a shared operating picture across data sources
+          </h2>
+          <p class="section-copy">
+            Without losing the local context that matters
+          </p>
+          <div class="accordion">
+            <details open>
+              <summary>Connected operational intelligence</summary><p>Bring field observations, monitoring feeds and institutional data together in one accountable view</p>
+            </details>
+            <details><summary>Decision tools for changing conditions</summary><p>Translate live evidence into priorities, scenarios and actions that you can use.</p></details>
+            <details><summary>Built for enduring ownership</summary><p>Choose systems which are designed around your workflows, capacity and long-term stewardship.</p></details>
+          </div>
+        </div><div class="data-screen" aria-label="Platform dashboard preview">
+          <div class="screen-top">
+            <i></i><i></i><i></i>
+          </div>
+          <div class="screen-chart"></div>
+          <div class="screen-stats">
+            <span>FLOW INDEX<br><strong>84.2</strong></span>
+            <span>DATA SOURCES<br><strong>24 LIVE</strong></span>
+            <span>RISK STATUS<br><strong>STABLE</strong></span>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
