@@ -5,8 +5,8 @@ title: "Eleazar BlueSource Consultancy"
 description: "SUSTAINABILITY INTELLIGENCE. DIGITAL RESILIENCE. Bringing ideas to life through code and creativity."
 hero:
   links:
-    - label: "Company Vision"
-      to: https://github.com/
+    - label: "Shop Eco Filters"
+      to: /shop
       color: "neutral"
   images:
     - src: /hero/random-1.avif

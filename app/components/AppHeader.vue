@@ -7,9 +7,9 @@
         </span>
       </NuxtLink>
       <nav class="site-nav" aria-label="Primary navigation">
-        <NuxtLink to="/projects">Projects</NuxtLink><NuxtLink to="/portfolio">Portfolio</NuxtLink><NuxtLink to="/contact">Contact</NuxtLink>
+        <NuxtLink to="/projects">Projects |</NuxtLink><NuxtLink to="/portfolio">Portfolio |</NuxtLink><NuxtLink to="/contact">Get in Touch</NuxtLink>
       </nav>
-      <NuxtLink to="/contact" class="btn btn-outline header-cta">Request an Audit</NuxtLink>
+      <NuxtLink to="/contact" class="btn btn-outline header-cta">Get a Free Water Test</NuxtLink>
     </div>
   </header>
 </template>
