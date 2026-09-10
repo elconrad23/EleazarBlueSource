@@ -33,11 +33,16 @@
     "vue-tsc": "^3.3.9"
   },
   "packageManager": "pnpm@11.18.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver",
-      "vue-demi"
-    ]
-  }
+"pnpm": {
+  "onlyBuiltDependencies": [
+    "esbuild",
+    "unrs-resolver",
+    "vue-demi"
+  ],
+  "allowBuild": [
+    "esbuild",
+    "unrs-resolver",
+    "vue-demi"
+  ]
+}
 }
