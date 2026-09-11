@@ -38,11 +38,6 @@
       "esbuild",
       "unrs-resolver",
       "vue-demi"
-    ],
-    "allowBuild": [
-      "esbuild",
-      "unrs-resolver",
-      "vue-demi"
     ]
   }
 }
