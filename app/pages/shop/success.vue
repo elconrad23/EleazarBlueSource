@@ -27,12 +27,28 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
+interface CheckoutSession {
+  payment_status: string
+  customer_details?: {
+    name: string
+    email: string
+  }
+  line_items: Array<{
+    price: number
+    currency: string
+    quantity: number
+    product?: string
+  }>
+  amount_total: number
+  currency: string
+}
+
 const route = useRoute()
-const session = ref(null)
+const session = ref<CheckoutSession | null>(null)
 const loading = ref(true)
 const error = ref('')
 
