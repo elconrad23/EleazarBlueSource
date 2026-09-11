@@ -1,27 +1,17 @@
 <script setup lang="ts">
+// Try to fetch blog page content, but it's optional
 const { data: page } = await useAsyncData('blog-page', () => {
   return queryCollection('pages').path('/blog').first()
 })
-if (!page.value) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'Page not found',
-    fatal: true
-  })
-}
+
+// Fetch blog posts
 const { data: posts } = await useAsyncData('blogs', () =>
   queryCollection('blog').order('date', 'DESC').all()
 )
-if (!posts.value) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'blogs posts not found',
-    fatal: true
-  })
-}
 
-const title = page.value?.seo?.title || page.value?.title
-const description = page.value?.seo?.description || page.value?.description
+// Use page data if it exists, otherwise use defaults
+const title = page.value?.seo?.title || page.value?.title || 'Blog'
+const description = page.value?.seo?.description || page.value?.description || 'Read our latest articles and insights'
 
 useSeoMeta({
   title,
@@ -30,15 +20,15 @@ useSeoMeta({
   ogDescription: description
 })
 
-defineOgImage('Portfolio', { title, description })
+defineOgImage('Blog', { title, description })
 </script>
 
 <template>
-  <UPage v-if="page">
+  <UPage>
     <UPageHero
-      :title="page.title"
-      :description="page.description"
-      :links="page.links"
+      :title="page?.title || 'Blog'"
+      :description="page?.description || 'Read our latest articles and insights'"
+      :links="page?.links"
       :ui="{
         title: 'mx-0! text-left',
         description: 'mx-0! text-left',
@@ -50,7 +40,7 @@ defineOgImage('Portfolio', { title, description })
         container: 'pt-0!'
       }"
     >
-      <UBlogPosts orientation="vertical">
+      <UBlogPosts v-if="posts?.length" orientation="vertical">
         <Motion
           v-for="(post, index) in posts"
           :key="index"
@@ -76,6 +66,9 @@ defineOgImage('Portfolio', { title, description })
           />
         </Motion>
       </UBlogPosts>
+      <div v-else class="text-center py-12">
+        <p class="text-muted">No blog posts available yet.</p>
+      </div>
     </UPageSection>
   </UPage>
 </template>
