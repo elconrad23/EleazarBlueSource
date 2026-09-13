@@ -14,6 +14,10 @@ export default defineNuxtConfig({
     enabled: true
   },
 
+  fonts: {
+    throwOnError: false
+  },
+
   css: ['~/assets/css/main.css'],
 
   colorMode: {
